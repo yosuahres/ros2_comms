@@ -1,0 +1,2 @@
+[console_scripts]
+image_publisher = ros2_image_stream.image_publisher:main

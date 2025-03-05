@@ -1,0 +1,119 @@
+[0.239s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/Users/hares/miniconda3/envs/ros_env/bin/colcon', 'build', '--packages-select', 'ros2_image_stream'][0m
+[0.239s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ros2_image_stream'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x101a2d150>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x101a2cad0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x101a2cad0>>)[0m
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.300s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/Users/hares/Desktop/infor2025/robot/rospose'
+[0.300s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.301s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extension 'ignore'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extension 'ignore_ament_install'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extensions ['colcon_pkg']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extension 'colcon_pkg'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extensions ['colcon_meta']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extension 'colcon_meta'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extensions ['ros']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2_image_stream) by extension 'ros'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2_image_stream' with type 'ros.ament_python' and name 'ros2_image_stream'[0m
+[0.334s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.335s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.335s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.335s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.335s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_args' from command line to 'None'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_target' from command line to 'None'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros2_image_stream' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros2_image_stream' with the following arguments: {'ament_cmake_args': None, 'build_base': '/Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream', 'merge_install': False, 'path': '/Users/hares/Desktop/infor2025/robot/rospose/src/ros2_image_stream', 'symlink_install': False, 'test_result_base': None}[0m
+[0.356s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.357s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.357s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/Users/hares/Desktop/infor2025/robot/rospose/src/ros2_image_stream' with build type 'ament_python'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_image_stream', 'ament_prefix_path')
+[0.360s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/ament_prefix_path.ps1'
+[0.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/ament_prefix_path.dsv'
+[0.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/ament_prefix_path.sh'
+[0.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.588s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/Users/hares/Desktop/infor2025/robot/rospose/src/ros2_image_stream'
+[0.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.078s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/Users/hares/Desktop/infor2025/robot/rospose/src/ros2_image_stream': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/prefix_override:/Users/hares/miniconda3/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=4 _=/Users/hares/miniconda3/envs/ros_env/bin/env /Users/hares/miniconda3/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_image_stream build --build-base /Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/build install --record /Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/install.log --single-version-externally-managed install_data[0m
+[1.775s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/Users/hares/Desktop/infor2025/robot/rospose/src/ros2_image_stream' returned '0': CONDA_PROMPT_MODIFIER=(ros_env) PYTHONPATH=/Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/prefix_override:/Users/hares/miniconda3/envs/ros_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/lib/python3.11/site-packages:${PYTHONPATH} SHLVL=4 _=/Users/hares/miniconda3/envs/ros_env/bin/env /Users/hares/miniconda3/envs/ros_env/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_image_stream build --build-base /Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/build install --record /Users/hares/Desktop/infor2025/robot/rospose/build/ros2_image_stream/install.log --single-version-externally-managed install_data[0m
+[1.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream' for CMake module files
+[1.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream' for CMake config files
+[1.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/lib'
+[1.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/bin'
+[1.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/lib/pkgconfig/ros2_image_stream.pc'
+[1.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/lib/python3.11/site-packages'
+[1.786s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros2_image_stream', 'pythonpath')
+[1.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/pythonpath.ps1'
+[1.787s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/pythonpath.dsv'
+[1.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/hook/pythonpath.sh'
+[1.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/bin'
+[1.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros2_image_stream)
+[1.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/package.ps1'
+[1.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/package.dsv'
+[1.792s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/package.sh'
+[1.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/package.bash'
+[1.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/ros2_image_stream/package.zsh'
+[1.797s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/Users/hares/Desktop/infor2025/robot/rospose/install/ros2_image_stream/share/colcon-core/packages/ros2_image_stream)
+[1.798s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.799s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.799s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.799s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.800s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.800s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/hares/Desktop/infor2025/robot/rospose/install/local_setup.ps1'
+[1.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/hares/Desktop/infor2025/robot/rospose/install/_local_setup_util_ps1.py'
+[1.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/hares/Desktop/infor2025/robot/rospose/install/setup.ps1'
+[1.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/hares/Desktop/infor2025/robot/rospose/install/local_setup.sh'
+[1.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/Users/hares/Desktop/infor2025/robot/rospose/install/_local_setup_util_sh.py'
+[1.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/hares/Desktop/infor2025/robot/rospose/install/setup.sh'
+[1.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/hares/Desktop/infor2025/robot/rospose/install/local_setup.bash'
+[1.810s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/hares/Desktop/infor2025/robot/rospose/install/setup.bash'
+[1.811s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/Users/hares/Desktop/infor2025/robot/rospose/install/local_setup.zsh'
+[1.812s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/Users/hares/Desktop/infor2025/robot/rospose/install/setup.zsh'
